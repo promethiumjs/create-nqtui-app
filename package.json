@@ -1,0 +1,30 @@
+{
+  "name": "create-nqtui-app",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "bin": "./bin/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nqtui/nqtui.git"
+  },
+  "exports": {
+    ".": {
+      "default": "./nqtui.js"
+    }
+  },
+  "bugs": {
+    "url": "https://github.com/nqtui/nqtui/issues"
+  },
+  "homepage": "https://github.com/nqtui/nqtui#readme",
+  "keywords": [
+    "frontend",
+    "UI",
+    "javascript"
+  ],
+  "author": "",
+  "license": "ISC"
+}
